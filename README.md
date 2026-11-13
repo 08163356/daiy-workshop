@@ -6,6 +6,10 @@ Daily 把待办、日记、笔记、目标和个人复盘放在同一个上下�
 
 > 项目当前面向单用户自托管场景，不是多租户 SaaS，也不提供医疗或心理咨询服务。
 
+[在线演示](https://ablog.axingit.top/daily-show/) · [发布文章](https://ablog.axingit.top/pages/daily-launch/)
+
+在线演示使用独立的虚构数据并会周期性重置，功能版本可能略晚于仓库。
+
 ## 为什么做 Daily
 
 很多工具能保存信息，但记录、行动和复盘通常彼此割裂：

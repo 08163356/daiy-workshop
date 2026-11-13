@@ -23,7 +23,6 @@ FORBIDDEN_PATTERNS = {
     "production_ip": re.compile(r"\b8\.135\.9\.12\b"),
     "old_password": re.compile(r"Lx1010", re.I),
     "private_path": re.compile(r"axingSpace", re.I),
-    "personal_domain": re.compile(r"ablog\.axingit\.top", re.I),
     "private_key": re.compile(r"BEGIN (?:RSA |OPENSSH |EC )?PRIVATE KEY"),
     "github_token": re.compile(r"\bghp_[A-Za-z0-9]{20,}\b"),
     "openai_key": re.compile(r"\bsk-[A-Za-z0-9_-]{20,}\b"),
