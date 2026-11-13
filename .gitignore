@@ -1,0 +1,81 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+venv/
+.venv/
+ENV/
+env/
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+
+# Node
+node_modules/
+.pnpm-store/
+*.tsbuildinfo
+
+# Database (本地开发数据库不上传)
+*.db
+*.sqlite
+*.sqlite3
+*.db-*
+*.sqlite-*
+*.sqlite3-*
+
+# Build output
+frontend/dist/
+frontend/dist-show*/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Exports
+exports/
+
+# Private runtime data
+user-data/
+data/
+uploads/
+screenshots-private/
+*.sql
+*.dump
+*.bak
+
+# Local agent/editor state and deployment scratch files
+.codebuddy/
+.obsidian/
+_tmp*

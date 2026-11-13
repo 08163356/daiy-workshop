@@ -1,0 +1,18 @@
+services:
+  backend:
+    build: ./backend
+    env_file: .env
+    volumes:
+      - daily-data:/data
+    restart: unless-stopped
+
+  frontend:
+    build: ./frontend
+    depends_on:
+      - backend
+    ports:
+      - "${DAILY_PORT:-8080}:80"
+    restart: unless-stopped
+
+volumes:
+  daily-data:
